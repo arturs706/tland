@@ -1,0 +1,185 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
+
+}
+
+
+.alinks {
+    padding-left: 3rem;
+}
+.alinks a{
+    text-decoration: none;
+    /* color: var(--font-color); */
+    padding: 0 0.7rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 22rem;
+    padding-right: 3rem;
+
+}
+.searchwrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 1.3rem;
+    padding-left: 1rem;
+    /* border: 0.1px solid var(--font-color); */
+    background-color: var(--background-white-white);
+    margin-right: 3rem;
+}
+.icons a {
+    text-decoration: none;
+    color: var(--font-color);
+    padding: 0 0.7rem;
+}
+
+
+.searchwrap svg {
+    width: 1.2rem;
+    height: 1.2rem;
+
+}
+
+.cartyqty {
+    position: relative;
+}
+
+.cartyqty p{
+    position: absolute;
+    top: -1.5rem;
+    left: -0.39rem;
+    color: var(--background-white);
+    font-size: 10px;
+    /* color: var(--font-color); */
+
+}
+.nrblack {
+    background-color: var(--font-color);
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -0.9rem;
+    left: -0.6rem;
+}
+
+
+.iconas {
+    display: flex;
+    align-items: center; 
+}
+
+.iconas a{
+    text-decoration: none;
+    color: var(--font-color);
+    padding: 0 0.4rem;
+}
+
+
+
+.navScrolled {
+    transition: background-color 0.5s ease-in-out;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+
+}
+
+.navScrolledHide {
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 0.5s ease-in-out;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    opacity: 0;
+    transform: translateY(-100%);
+    z-index: -1;
+    position: fixed;
+
+}
+.overflown {
+    position: fixed;
+    width: 100%;
+    /* background-color: rgba(240, 255, 255, 0.8); */
+    background-color: var(--font-color);
+    height: 8.1rem;
+    z-index: -1;
+    opacity: 1;
+    transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
+
+}
+
+.overflownScrolledHide {
+    /* background-color: rgba(240, 255, 255, 0.8); */
+    background-color: var(--font-color);
+
+    transition: background-color 0.5s ease-in-out;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    opacity: 0;
+    transform: translateY(-100%);
+    z-index: -1;
+    position: fixed;
+}
+
+.navwrapp {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.navwrapp:nth-child(3) {
+    padding-top: 2.2rem;
+}
+
+
+.navburger {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    height: 0.4rem;
+    
+}
+
+.navbarone {
+    width: 1.5rem;
+    height: 0.08rem;
+    background-color: var(--font-color);
+}
+.navbartwo {
+    width: 1.5rem;
+    height: 0.08rem;
+    background-color: var(--font-color);
+}
+
+.whiteColorTransition {
+    color: #fff;
+    transition: color 0.5s ease-in-out;
+}
+
+.blackColorTransition {
+    color: var(--font-color);
+    transition: color 0.5s ease-in-out;
+}
+
+.blackStrokeTransition {
+    stroke: var(--font-color);
+    transition: stroke 0.5s ease-in-out;
+}
+.whiteStrokeTransition {
+    stroke: #fff;
+    transition: stroke 0.5s ease-in-out;
+}
