@@ -3,5 +3,107 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    padding-top: 7rem;
+    height: 100vh;
+}
+.leftdiv {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 3.7rem;
+    min-height: 100vh;
+
+}
+
+.h1class {
+    font-size: 3.45rem;
+    font-weight: 700;
+    line-height: 0.7;
+}
+.h2class {
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 0.01;
+    padding-top: 1rem;
+}
+.hwrapp {
+    height: 70vh;
+}
+
+.rightdiv {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 2.5rem;
+
+}
+.lineone {
+    width: 100%;
+    margin-top: 1rem;
+}
+.linetwo {
+    width: 100%;
+    margin-top: 1rem;
+}
+.linetwo img {
+    margin-right: 0.85rem;
+}
+.linethree {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.linethree img {
+    margin-right: 0.7rem;
+}
+
+.buttonsection {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.buttonsection button:nth-child(1) {
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    background-color: var(--background-white-white);
+    color: var(--font-color);
+    font-size: 0.8rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    font-family: "KRYLON";
+
+}
+.buttonsection button:nth-child(2) {
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    color: var(--background-white-white);
+    background-color: var(--font-color);
+    font-size: 0.8rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    font-family: "KRYLON";
+
+}
+
+.star {
+    position: absolute;
+    top: 7rem;
+    left: 3.2rem;
+
+}
+
+.startwo {
+    position: absolute;
+    bottom: 2rem;
+    left: 35rem;
 }

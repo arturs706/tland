@@ -67,7 +67,6 @@
 
 }
 .nrblack {
-    background-color: var(--font-color);
     width: 0.8rem;
     height: 0.8rem;
     border-radius: 50%;
@@ -157,16 +156,14 @@
 .navbarone {
     width: 1.5rem;
     height: 0.08rem;
-    background-color: var(--font-color);
 }
 .navbartwo {
     width: 1.5rem;
     height: 0.08rem;
-    background-color: var(--font-color);
 }
 
 .whiteColorTransition {
-    color: #fff;
+    color: var(--background-white);
     transition: color 0.5s ease-in-out;
 }
 
@@ -175,11 +172,42 @@
     transition: color 0.5s ease-in-out;
 }
 
-.blackStrokeTransition {
+.svgicons {
+    width: 1.2rem;
+    height: 1.2rem;
+
+}
+.svgiconsfill {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.svgAddBlack {
     stroke: var(--font-color);
     transition: stroke 0.5s ease-in-out;
 }
-.whiteStrokeTransition {
-    stroke: #fff;
+
+.svgAddWhite {
+    stroke: var(--background-white);
     transition: stroke 0.5s ease-in-out;
+}
+
+.svgiconsfillAddBlack {
+    fill: var(--font-color);
+    transition: fill 0.5s ease-in-out;
+}
+
+.svgiconsfillAddWhite {
+    fill: var(--background-white);
+    transition: fill 0.5s ease-in-out;
+}
+
+.addBlackBG {
+    background-color: var(--font-color);
+    transition: background-color 0.5s ease-in-out;
+}
+
+.addWhiteBG {
+    background-color: var(--background-white);
+    transition: background-color 0.5s ease-in-out;
 }

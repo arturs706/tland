@@ -14,6 +14,9 @@ dependencies:
   gsap:
     specifier: ^3.12.2
     version: 3.12.2
+  locomotive-scroll:
+    specifier: 5.0.0-beta.8
+    version: 5.0.0-beta.8
   solid-js:
     specifier: ^1.7.6
     version: 1.7.6
@@ -843,6 +846,10 @@ packages:
       solid-js: 1.7.6
     dev: false
 
+  /@studio-freight/lenis@1.0.12:
+    resolution: {integrity: sha512-iN3JQ6qJVc+L7vh8NjlDibw9dvjjifvlJ+s0UAkfwty+vW9MJxRfszb5X/eAhcbDLZW6MlvjRHoH9WSQH3J8eA==}
+    dev: false
+
   /@types/babel__core@7.20.1:
     resolution: {integrity: sha512-aACu/U/omhdk15O4Nfb+fHgH/z3QsfQzpnvRZhYhThms83ZnAOZz7zZAWO7mn2yyNQaA4xTO8GLK3uqFU4bYYw==}
     dependencies:
@@ -1049,6 +1056,13 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
     dev: true
+
+  /locomotive-scroll@5.0.0-beta.8:
+    resolution: {integrity: sha512-4Nq12voKr5719aaySZg3FX/gQKQIAaAC4NkBiU27aKEKFnYcTeOB1r8VO5bGpEIOGQo94wsiJQNZuRb3TsxjHA==}
+    engines: {node: '>=17'}
+    dependencies:
+      '@studio-freight/lenis': 1.0.12
+    dev: false
 
   /lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
