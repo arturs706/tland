@@ -1,6 +1,7 @@
 import { Component, createEffect } from "solid-js";
 import Herosection from "../components/mainpage/Herosection"
 import Secondsection from "../components/mainpage/Secondsection"
+import Thirdsection from "../components/mainpage/Thirdsection"
 import LocomotiveScroll from 'locomotive-scroll';
 
 const Home: Component = () => {
@@ -11,8 +12,9 @@ const Home: Component = () => {
 
   return (
     <div data-scroll-container>
-        <Herosection />
+        <Herosection/>
         <Secondsection />
+        <Thirdsection />
     </div>
   )
 }

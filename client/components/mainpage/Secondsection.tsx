@@ -1,12 +1,41 @@
-import { Component } from "solid-js";
-import styles from "../../css/Secondsection.module.css"
+import { Component, createEffect, onCleanup } from "solid-js";
+import styles from "../../css/Secondsection.module.css";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 const Secondsection: Component = () => {
-    {
-  return (
-    <main class={styles.main}></main>
-  )
+createEffect(() => {
+  gsap.registerPlugin(ScrollTrigger);
+  gsap.to("#maindiv", {
+    scrollTrigger: {
+      trigger: "#maindiv",
+      start: "top top",
+      end: "bottom 0rem",
+      scrub: 1,
+      markers: true,
+      pin: true,
+    },
+    backgroundColor:"#010101",
+  
+  });
 }
-}
+);
 
-export default Secondsection
+  
+
+  return (
+    <main class={styles.main} id="maindiv">
+      <div class={styles.head}>
+        <div class={styles.newproducts}>
+          <img src='../src/assets/images/ministar.svg' alt="star"/>
+          <h3>NEW PRODUCTS</h3>
+          <img src='../src/assets/images/ministar.svg' alt="star"/>
+        </div>
+        
+        <h1>DISCOVER EXCLUSIVES</h1>
+      </div>
+    </main>
+  );
+};
+
+export default Secondsection;

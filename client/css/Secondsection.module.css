@@ -3,5 +3,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--background-white);
+    position: relative;
+    z-index: 2;
     
+}
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.head h1, .head h2 {
+    line-height: 0;
+}
+.newproducts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.newproducts img {
+    width: 1.2rem;
+    padding: 0 1rem;
 }

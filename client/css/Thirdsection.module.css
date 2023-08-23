@@ -1,0 +1,10 @@
+.main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-white);
+    position: relative;
+    z-index: 2;
+    
+}

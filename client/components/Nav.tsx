@@ -165,11 +165,10 @@ createEffect(() => {
   return (
     <nav class={`${styles.nav}`} id="nav">
       <div class={`alinks ${styles.alinks}`}>
-          <A href="/about">HOME</A>
-          <A href="/about">SERVICES</A>
-          <A href="/about">BOOK</A>
-          <A href="/about">FAQ</A>
-          <A href="/about">CONTACT ME</A>
+          <A href="/">HOME</A>
+          <A href="/products">PRODUCTS</A>
+          <A href="/about">ABOUT US</A>
+          <A href="/contact">CONTACT US</A>
         </div>
       <div class={`${styles.overflown} ${styles.overflownScrolledHide}`} id="overflown">
       </div>
