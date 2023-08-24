@@ -16,7 +16,7 @@
 
 }
 .head h1, .head h2 {
-    line-height: 0;
+    font-size: 5rem;
 }
 .newproducts {
     display: flex;

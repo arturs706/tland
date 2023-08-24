@@ -18,6 +18,7 @@ createEffect(() => {
     backgroundColor:"#010101",
   
   });
+  
 }
 );
 
@@ -28,12 +29,12 @@ createEffect(() => {
       <div class={styles.head}>
         <div class={styles.newproducts}>
           <img src='../src/assets/images/ministar.svg' alt="star"/>
-          <h3>NEW PRODUCTS</h3>
+          <h1>OUR JOURNEY</h1>
+          <h1>THROUGH TIME</h1>
+          <h1>AND CULTURE</h1>
           <img src='../src/assets/images/ministar.svg' alt="star"/>
         </div>
-        
-        <h1>DISCOVER EXCLUSIVES</h1>
-      </div>
+              </div>
     </main>
   );
 };
