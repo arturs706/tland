@@ -65,7 +65,7 @@ createEffect(() => {
 
     {
   return (
-    <main class={styles.main} id="main" data-scroll data-scroll-speed="-0.122">
+    <main class={styles.main} id="main">
       <div class={`${styles.star} fadeinelement`}>
 
         {/* <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -130,7 +130,7 @@ createEffect(() => {
       </div>
       <div class={styles.bottomarrowdiv}>
         <img src='../src/assets/images/arrowdown.svg' alt="star"/>
-        <h3>Scroll to explore</h3>
+        <h2 class={styles.h2class}>SCROLL TO EXPLORE</h2>
         <div></div>
       </div>
     </main>

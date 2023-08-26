@@ -4,9 +4,10 @@
 }
 
 :root {
-  --background-white: #F1F1F0;
+  --background-white: #C0C5C4;
   --background-white-white: #ffffff;
   --font-color: #010101;
+  --background-grey: #C3C9C7;
 } 
 
 html {
@@ -24,4 +25,8 @@ body {
   font-size: 12px;
  
 
+}
+.char {
+  transform: translateY(240px);
+  transition: transform 2.5s ease-in-out;
 }

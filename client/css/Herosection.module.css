@@ -28,7 +28,7 @@
 }
 .sinceninetynine h1{
     font-size: 15rem;
-    opacity: 30%;
+    opacity: 15%;
     color: var(--background-white-white);
     padding-right: 6rem;
     line-height: 0;
@@ -44,7 +44,7 @@
     align-items: center;
     border-top: 0.1px solid var(--font-color);
 }
-.bottomarrowdiv h3{
+.bottomarrowdiv h2{
     padding-right: 6.5rem;
 }
 

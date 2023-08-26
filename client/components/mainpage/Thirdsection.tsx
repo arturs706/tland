@@ -6,7 +6,7 @@ const Thirdsection: Component = () => {
 
   return (
     <main class={styles.main}>
-   
+        
     </main>
   )
 
